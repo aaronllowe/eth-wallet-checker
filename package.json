@@ -1,0 +1,17 @@
+{
+  "name": "eth-wallet-check",
+  "version": "1.0.0",
+  "description": "check ethereum wallets for a balance [multithreaded]",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "crypthusiast0",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.4.7",
+    "web3": "^1.6.0"
+  }
+}
